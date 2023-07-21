@@ -1,0 +1,47 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:cornflowerblue;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.contBox{
+    background-color:hsl(0, 8%, 21%);
+    margin-left: 33%;
+    width: 34%;
+    height: 240px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap:5px;
+    align-items: center;
+    border-radius: 5%;   
+}
+
+h1{
+    text-align: center;
+    color:blue;    
+}
+
+h3, p, h4{
+    color:white;
+}
+
+.Grafica{
+    display: flex;
+    justify-content:center;
+    width: 800px;
+}
+#myChart{
+    width:200px;
+}
+
+
